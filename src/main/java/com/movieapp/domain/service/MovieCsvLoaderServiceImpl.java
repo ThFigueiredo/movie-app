@@ -25,4 +25,5 @@ public class MovieCsvLoaderServiceImpl implements MovieCsvLoaderService {
         Optional<List<MovieModel>> movieList = Optional.ofNullable(fileReader.read(path));
         movieList.ifPresent(movieService::save);
     }
+
 }

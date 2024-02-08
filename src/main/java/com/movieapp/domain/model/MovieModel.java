@@ -2,6 +2,7 @@ package com.movieapp.domain.model;
 
 import jakarta.persistence.*;
 import lombok.*;
+import lombok.experimental.SuperBuilder;
 
 @Getter
 @Setter
@@ -9,6 +10,7 @@ import lombok.*;
 @RequiredArgsConstructor
 @AllArgsConstructor
 @Entity
+@SuperBuilder
 @Table(name = "moviesTable")
 public class MovieModel {
 

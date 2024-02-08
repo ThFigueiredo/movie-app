@@ -41,7 +41,7 @@ public class MovieController {
             List<MovieModel> movies = moviePage.getContent();
             return ResponseEntity.ok(movies);
         } catch (Exception exception) {
-            return ResponseEntity.badRequest().body("Erro ao obter a lista de filmes " + exception.getMessage());
+            return ResponseEntity.badRequest().body("Erro ao obter a lista de filmes.");
         }
     }
 }
