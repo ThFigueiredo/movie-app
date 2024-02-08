@@ -1,4 +1,4 @@
-package com.movieapp.model;
+package com.movieapp.domain.model;
 
 import jakarta.persistence.*;
 import lombok.*;
@@ -15,7 +15,7 @@ public class MovieModel {
     @Id
     @GeneratedValue
     @Column(name = "M_ID")
-    private Long id;
+    private Integer id;
 
     @Column(name = "M_YEAR")
     private String year;
