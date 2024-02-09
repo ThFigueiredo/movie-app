@@ -4,7 +4,8 @@
 
 ### Requisitos do Sistema
 1. O sistema consiste em carregar os dados de um arquivo .csv e gravar na base de dados.
-2. Além disso, é disponibilizada uma API para obter o produtor com o maior intervalo entre dois prêmios consecutivos e o que obteve dois prêmios mais rapidamente.
+2. Além disso, é disponibilizada uma API para obter o produtor com maior intervalo entre dois prêmios consecutivos, e o que
+obteve dois prêmios mais rápido.
 
 ## Tecnologias
 
